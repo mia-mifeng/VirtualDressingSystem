@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1117439A-845B-E631-165E-AD7C7548455E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DressingroomExample\MirrorReflection\MirrorReflection.cs" />
+     <Compile Include="Assets\OpenNI\Documentation\Additional documentation sources\OpenNIMainPage.cs" />
+     <Compile Include="Assets\OpenNI\Documentation\Additional documentation sources\OpenNIOverviewPages.cs" />
+     <Compile Include="Assets\OpenNI\Documentation\Additional documentation sources\OpenNIPages.cs" />
+     <Compile Include="Assets\OpenNI\Documentation\Additional documentation sources\OpenNISamplesPages.cs" />
+     <Compile Include="Assets\OpenNI\Documentation\Additional documentation sources\OpenNITutorials.cs" />
+     <Compile Include="Assets\OpenNI\Documentation\Additional documentation sources\OpenNIUtilityPages.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\NIEventLogger.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\NICheckVersion.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\NIContext.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\NIConvertCoordinates.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\NIImage.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\NIOpenNICheckVersion.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\NIUserAndSkeleton.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\WrapperBaseObjects\NIWrapperContextDependant.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNI engine\WrapperBaseObjects\NIWrapperObject.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\OpenNISettingsManager.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\Queries\NIQuery.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Basic objects\Queries\NIQueryDescription.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Input\NIAxis.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Input\NIInput.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Skeleton base objects\NISkeletonController.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Base tracker and manager classes\NIPointTracker.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Base tracker and manager classes\NIPointTrackerManager.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Common gesture classes\NIGestureFactory.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Common gesture classes\NIGestureManager.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Common gesture classes\NIGestureTracker.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\NIPositionTrackerFrameManager.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Skeleton based trackers\gestures\Gesture detectors\NISteadySkeletonHandDetector.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Skeleton based trackers\gestures\Gesture detectors\NIUserPoseDetector.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Skeleton based trackers\gestures\factories\NISteadySkeletonGestureFactory.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Skeleton based trackers\gestures\factories\NIUserPoseGestureFactory.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\Trackers\Skeleton based trackers\point trackers\NISkeletonTracker.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Base objects\NIPlayerCandidateObject.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Base objects\NIPlayerManager.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Base objects\NISelectedPlayer.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Selectors\NIPlayerCOMCandidateObject.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Selectors\NIPlayerManagerCOMSelection.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Selectors\NIPlayerManagerPoseSelection.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Main OpenNI\User selector\Selectors\NIPlayerPoseCandidateObject.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\Ball Hitting Sample\BallCreator.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\Ball Hitting Sample\JointSpeeder.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\Ball Hitting Sample\NICollider.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\Cursor examples\NIHandPositionInputPositionOnly.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\GUI examples\GUIExample.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\GUI examples\SkeletonGuiControl.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\LogoShower.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\Trackers\Exit pose\NIExitPoseDetector.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Samples\Trackers\Exit pose\NIExitPoseGestureFactory.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\NISkeletonControllerLineDebugger.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\NISkeletonControllerLineRenderer.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\Viewers\NIDepthmapViewerUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\Viewers\NIImagemapViewerUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\Viewers\NIMapViewerBaseUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\Viewers\NIRadarViewerUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\Debug utilities\Viewers\NIUsermapViewerUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\General utilities\NISkeletonCalibrationMessageUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\General utilities\NITimedPointListUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\General utilities\NITimedPointSpeedListUtility.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\DefaultNIGUICursor.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\DefaultNIGUICursorAdd.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\NICursorInitializer.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\NICursorInitializerAdd.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\NIGUI.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\NIGUICursor.cs" />
+     <Compile Include="Assets\OpenNI\Scripts\Utilities\NIGUI\NIGUI_oneCursor.cs" />
+     <Compile Include="Assets\VDS\Script\MainGUI.cs" />
+     <Compile Include="Assets\VDS\Script\RefScript\ClothingManager.cs" />
+     <Compile Include="Assets\VDS\Script\RefScript\DressingRoom.cs" />
+     <Compile Include="Assets\VDS\Script\RefScript\Nite.cs" />
+     <Compile Include="Assets\VDS\Script\RefScript\Resizer.cs" />
+     <Compile Include="Assets\VDS\Script\RefScript\UserBody.cs" />
+     <Compile Include="Assets\VDS\Script\TestBoneMove.cs" />
+     <Compile Include="Assets\VDS\Script\TestVertices.cs" />
+     <None Include="Assets\Shaders\MaskedDiffuse.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\DressingroomExample\Glow\GlowEffectDownsample.shader" />
+     <None Include="Assets\ReleaseNotes.txt" />
+     <None Include="Assets\OpenNI\Documentation\SampleXML.xml" />
+     <None Include="Assets\OpenNI\Documentation\ExampleRecord.xml" />
+     <None Include="Assets\DressingroomExample\MirrorReflection\MirrorReflection.shader" />
+ <Reference Include="OpenNI.Net">
+ <HintPath>Assets\OpenNI\Interface library\OpenNI engine\OpenNI.Net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
